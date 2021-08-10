@@ -6,10 +6,8 @@ To run the project enter teh backend directory and type:
 
 
 `python .\manage.py migrate`
-
-then
 `python .\manage.py runserver`
 
-then
+Navigate to :
 
-Navigate to : `http://127.0.0.1:8000/`
+ `http://127.0.0.1:8000/`
