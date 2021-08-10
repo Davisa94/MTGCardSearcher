@@ -1,1 +1,3 @@
-A list of things to be done on the project
+A list of things to be done on the project:
+
+TODO: After app works by polling aapi for card data everytime, cache card data by storing values for cards in card model
