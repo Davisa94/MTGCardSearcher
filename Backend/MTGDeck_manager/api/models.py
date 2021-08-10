@@ -9,17 +9,17 @@ from django.db import models
 ##################################################
 class Card(models.Model):
     multiverseid = models.IntegerField(unique=True) # Used to fetch the card from the API
-    deck_id = models.ForeignKey(Deck.id)
+    # deck_id = models.ForeignKey(Deck.id)
 
 ##################################################
-# A container that tells how many of a given 
-# multiverseid to be used in a list
+# An info table containing everything about the
+# Card given from 
 # Author: Austin Benitez
 ##################################################
 class CardListItem(models.Model):
 
     multiverseid = models.IntegerField(unique=True)
-    quantity
+    # quantity
 
 ##################################################
 # Holds all information needed to display a users 
