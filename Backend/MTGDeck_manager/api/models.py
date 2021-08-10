@@ -9,7 +9,17 @@ from django.db import models
 ##################################################
 class Card(models.Model):
     multiverseid = models.IntegerField(unique=True) # Used to fetch the card from the API
-    name = models.CharField(max_length=255)
+    deck_id = models.ForeignKey(Deck.id)
+
+##################################################
+# A container that tells how many of a given 
+# multiverseid to be used in a list
+# Author: Austin Benitez
+##################################################
+class CardListItem(models.Model):
+
+    multiverseid = models.IntegerField(unique=True)
+    quantity
 
 ##################################################
 # Holds all information needed to display a users 
