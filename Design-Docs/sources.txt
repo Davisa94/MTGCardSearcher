@@ -1,0 +1,5 @@
+Sources used as refernce material:
+https://stackoverflow.com/questions/50247068/fatal-error-in-launcher-unable-to-create-process-using-when-running-django
+Issue: as stated in post
+Resolution: I had 2 instances of django-admin installed in different drives.
+uninstalling did not work, I had to manually delete the files. This remedy fixed the issue.
