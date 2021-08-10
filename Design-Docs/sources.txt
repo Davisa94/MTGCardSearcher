@@ -8,3 +8,7 @@ https://medium.com/swlh/overview-building-a-full-stack-quiz-app-with-django-and-
 * https://stackoverflow.com/questions/18064973/id-field-in-model-django
 API Reference:
 https://docs.magicthegathering.io/
+Longest Card Name possible:
+https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74237
+https://api.magicthegathering.io/v1/cards/74237
+= 142 chars, lets round up tp 145
