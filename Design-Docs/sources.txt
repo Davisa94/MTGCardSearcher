@@ -5,6 +5,6 @@ Resolution: I had 2 instances of django-admin installed in different drives.
 uninstalling did not work, I had to manually delete the files. This remedy fixed the issue.
 Reference for anything I am rusty on:
 https://medium.com/swlh/overview-building-a-full-stack-quiz-app-with-django-and-react-57fd07449e2f
-
+* https://stackoverflow.com/questions/18064973/id-field-in-model-django
 API Reference:
 https://docs.magicthegathering.io/
