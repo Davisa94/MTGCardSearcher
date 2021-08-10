@@ -6,6 +6,7 @@ To run the project enter teh backend directory and type:
 
 
 `python .\manage.py migrate`
+
 `python .\manage.py runserver`
 
 Navigate to :
