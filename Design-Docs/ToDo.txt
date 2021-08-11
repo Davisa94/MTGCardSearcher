@@ -10,3 +10,5 @@ We need to have a card model for caching card info and we need a Card model for 
 SOLUTION:
 Store the card to deck relational info in Card and the cached card info in CardInfo
 TODO: when searching for a card first check the CardInfo Table for the card the ntry checking the external API
+
+TODO: Create Serializers for Deck
