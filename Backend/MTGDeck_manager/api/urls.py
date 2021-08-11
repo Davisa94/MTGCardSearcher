@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import main
+from .views import *
 
 urlpatterns = [
-    path('sanitycheck/', main)
+    path('sanitycheck/', sanity_check)
 ]
