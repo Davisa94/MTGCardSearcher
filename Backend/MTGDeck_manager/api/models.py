@@ -3,11 +3,10 @@ from django.db import models
 # Create your models here.
 
 ##################################################
-# Holds all information needed to display the card
-# for the user
+# A relational Model for storing card to deck relations
 # Author: Austin Benitez
 ##################################################
-class Card(models.Model):
+class CardToDeck(models.Model):
     multiverseid = models.IntegerField(unique=True) # Used to fetch the card from the API
     deck_id = models.ForeignKey("Deck", related_name="card", on_delete=models.CASCADE)
 
