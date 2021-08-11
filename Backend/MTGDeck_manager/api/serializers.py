@@ -17,4 +17,5 @@ class DeckSerializer(serializers.ModelSerializer):
     cards = serializers.PrimaryKeyRelatedField(queryset=CardToDeck.objects.all(), many=True)
     class Meta:
         model = Deck
-        fields = ('__all__', 'cards')
+        depth = 2
+        fields = ('name', 'cards')
