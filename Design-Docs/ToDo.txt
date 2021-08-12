@@ -12,3 +12,10 @@ Store the card to deck relational info in Card and the cached card info in CardI
 TODO: when searching for a card first check the CardInfo Table for the card the ntry checking the external API
 
 TODO: Create Serializers for Deck
+
+{% comment %} 
+We are revamping the project to be a card searcher with caching instead
+ {% endcomment %}
+
+TODO: Add more card info fields to the card model
+TODO: Add nickname field to the card field
