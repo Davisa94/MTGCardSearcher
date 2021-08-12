@@ -9,6 +9,7 @@ from django.db import models
 class CardToDeck(models.Model):
     deck_id = models.ForeignKey("Deck", related_name="card_to_deck", on_delete=models.CASCADE)
     card_id = models.ForeignKey("Card", related_name="card_to_deck", on_delete=models.CASCADE)
+    quantity = models.IntegerField
 
 ##################################################
 # An info table containing everything about the
