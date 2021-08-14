@@ -5,7 +5,7 @@ from rest_framework import serializers
 class CardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Card
-        fields = ('id', 'name')
+        fields = ('id', 'name', 'nickname', 'multiverseid', 'imageURL')
 
 class CardToDeckSerializer(serializers.ModelSerializer):
     card_info = CardSerializer()
