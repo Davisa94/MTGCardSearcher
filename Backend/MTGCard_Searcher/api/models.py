@@ -18,8 +18,11 @@ class CardToDeck(models.Model):
 ##################################################
 class Card(models.Model):
     id = models.AutoField(primary_key=True)
+    nickname = models.CharField(max_length=145)
     multiverseid = models.IntegerField(unique=True) # Used to fetch the card from the API
     name = models.CharField(max_length=145)
+    imageURL = models.CharField(max_length=255)
+    
 
 ##################################################
 # Holds all information needed to display a users 
