@@ -4,3 +4,4 @@ Backend/MTGCard_searcher/api/migrations/__pycache__/
 Backend/MTGCard_searcher/api/migrations/
 frontend/node_modules/*
 
+Backend/MTGCard_Searcher/frontend/node_modules/*
