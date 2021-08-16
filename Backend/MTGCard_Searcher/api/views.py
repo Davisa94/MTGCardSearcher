@@ -13,6 +13,6 @@ def main(req):
 class DeckView(generics.CreateAPIView):
     queryset = Deck.objects.all()
     serializer_class = DeckSerializer
-class CardView(generics.creatAPIView):
+class CardView(generics.CreateAPIView):
     queryset = Card.objects.all()
     serializer_class = CardSerializer
