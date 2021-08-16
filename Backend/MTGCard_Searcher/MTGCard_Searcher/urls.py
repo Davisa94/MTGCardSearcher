@@ -1,4 +1,4 @@
-"""MTGDeck_manager URL Configuration
+"""MTGCard_Searcher URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/

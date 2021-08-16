@@ -1,5 +1,5 @@
 """
-WSGI config for MTGDeck_manager project.
+WSGI config for MTGCard_Searcher project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MTGDeck_manager.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MTGCard_Searcher.settings')
 
 application = get_wsgi_application()

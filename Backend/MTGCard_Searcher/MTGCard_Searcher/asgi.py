@@ -1,5 +1,5 @@
 """
-ASGI config for MTGDeck_manager project.
+ASGI config for MTGCard_Searcher project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MTGDeck_manager.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MTGCard_Searcher.settings')
 
 application = get_asgi_application()
