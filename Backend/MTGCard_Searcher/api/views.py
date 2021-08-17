@@ -19,4 +19,7 @@ class CardView(generics.CreateAPIView):
 class NickNameCardView(APIView):
     serializer_class = NickNameCardSerializer
     def post(self, request, format= None):
-        pass
+        # Check for active session
+        if not self.request.session.exists(self.request.session.session_key):
+            # create a new session
+            self.request.session.create()
