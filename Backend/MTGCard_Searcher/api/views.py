@@ -30,5 +30,7 @@ class NickNameCardView(APIView):
             # get data out of request
             id = serializer.data.id
             nickname = serializer.data.nickname
-            
+            # Check if card has a nickname already:
+            queryset = Card.objects.filter(id=id, ickname = "")
+
 
