@@ -10,7 +10,13 @@ export default class App extends Component{
     }
 
     render(){
-        return <Home/>;
+        return(
+            <div>
+                <Home/>;
+                <CardSearch/>
+                <NickNameCard/>
+            </div>
+        ) 
     }
 }
 
