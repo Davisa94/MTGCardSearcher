@@ -15,3 +15,8 @@ def main(req):
 class CardView(generics.CreateAPIView):
     queryset = Card.objects.all()
     serializer_class = CardSerializer
+
+class NickNameCardView(APIView):
+    serializer_class = NickNameCardSerializer
+    def post(self, request, format= None):
+        pass
