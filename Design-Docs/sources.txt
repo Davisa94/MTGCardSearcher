@@ -13,3 +13,4 @@ Longest Card Name possible:
 https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74237
 https://api.magicthegathering.io/v1/cards/74237
 = 142 chars, lets round up tp 145
+https://api.magicthegathering.io/v1/cards/407539 source for example json

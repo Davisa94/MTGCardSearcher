@@ -10,9 +10,6 @@ def sanity_check(req):
 # API views go here
 def main(req):
     pass
-class DeckView(generics.CreateAPIView):
-    queryset = Deck.objects.all()
-    serializer_class = DeckSerializer
 class CardView(generics.CreateAPIView):
     queryset = Card.objects.all()
     serializer_class = CardSerializer
