@@ -11,11 +11,7 @@ export default class App extends Component{
 
     render(){
         return(
-            <div>
-                <Home/>
-                <CardSearch/>
-                <NickNameCard/>
-            </div>
+            <Home/>
         ) 
     }
 }

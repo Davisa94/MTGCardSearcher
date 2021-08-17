@@ -15,17 +15,14 @@ export default class Home extends Component {
     }
 
     render(){
-        return 
-        (
+        return (
         <Router>
             <Switch>
-                <Route path="/">
-                    <h1>
-                    Welcome Home
-                    </h1>
+                <Route exact path="/">
+                    <h1>Welcome Home</h1>
                 </Route>
-                <Route path="CardSearch" component={CardSearch}/>
-                <Route path="NickNameCard" component={NickNameCard}/>
+                <Route path="/CardSearch" component={CardSearch}></Route>
+                <Route path="/NickNameCard" component={NickNameCard}></Route>
             </Switch>
         </Router>);
     }
