@@ -19,3 +19,7 @@ issue: migrations did not run:
 solution: specify apps name after command:
 python .\manage.py makemigrations appname
 python .\manage.py migrate appname
+
+https://stackoverflow.com/questions/47362122/django-modulenotfounderror
+https://stackoverflow.com/questions/57637908/how-to-fix-templatesyntaxerror
+https://docs.djangoproject.com/en/1.10/howto/custom-template-tags/#code-layout
