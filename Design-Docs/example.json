@@ -1,0 +1,170 @@
+{
+    "card": {
+      "name": "Munda's Vanguard",
+      "manaCost": "{4}{W}",
+      "cmc": 5,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Kor Knight Ally",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Kor",
+        "Knight",
+        "Ally"
+      ],
+      "rarity": "Rare",
+      "set": "OGW",
+      "setName": "Oath of the Gatewatch",
+      "text": "Cohort — {T}, Tap an untapped Ally you control: Put a +1/+1 counter on each creature you control.",
+      "flavor": "\"Do not let yourselves fall now. Zendikar is depending on us—on you!\"",
+      "artist": "Steve Prescott",
+      "number": "29",
+      "power": "3",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": "407539",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=407539&type=card",
+      "rulings": [
+        {
+          "date": "2016-01-22",
+          "text": "To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)"
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Mundas Vorhut",
+          "text": "Mitstreiter — {T}, tappe einen ungetappten Verbündeten, den du kontrollierst: Lege auf jede Kreatur, die du kontrollierst, eine +1/+1-Marke.",
+          "type": "Kreatur — Kor, Ritter, Verbündeter",
+          "flavor": "„Gebt nicht auf. Zendikar zählt auf uns — auf dich!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=408097&type=card",
+          "language": "German",
+          "multiverseid": 408097
+        },
+        {
+          "name": "Vanguardia de Munda",
+          "text": "Secuaz — {T}, girar un Aliado enderezado que controlas: Pon un contador +1/+1 sobre cada criatura que controlas.",
+          "type": "Criatura — Caballero kor aliado",
+          "flavor": "\"No se dobleguen ahora. Zendikar depende de todos nosotros. ¡De ustedes!\".",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409399&type=card",
+          "language": "Spanish",
+          "multiverseid": 409399
+        },
+        {
+          "name": "Avant-garde de Munda",
+          "text": "Cohorte — {T}, engagez un allié dégagé que vous contrôlez : Mettez un marqueur +1/+1 sur chaque créature que vous contrôlez.",
+          "type": "Créature : kor et chevalier et allié",
+          "flavor": "« N'abandonnez pas maintenant. Zendikar a besoin de nous... de vous ! »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=408283&type=card",
+          "language": "French",
+          "multiverseid": 408283
+        },
+        {
+          "name": "Avanguardia di Munda",
+          "text": "Coorte — {T}, TAPpa un Alleato STAPpato che controlli: Metti un segnalino +1/+1 su ogni creatura che controlli.",
+          "type": "Creatura — Alleato Cavaliere Kor",
+          "flavor": "\"Non lasciatevi cadere ora. Zendikar dipende da noi... da voi!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=408469&type=card",
+          "language": "Italian",
+          "multiverseid": 408469
+        },
+        {
+          "name": "ムンダの先兵",
+          "text": "盟友 ― {T}, あなたがコントロールするアンタップ状態の同盟者を１体タップする：あなたがコントロールする各クリーチャーの上にそれぞれ＋１/＋１カウンターを１個置く。",
+          "type": "クリーチャー — コー・騎士・同盟者",
+          "flavor": "「降伏の時ではない。ゼンディカーの命運は、君たちの双肩にかかっているのだ！」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=408655&type=card",
+          "language": "Japanese",
+          "multiverseid": 408655
+        },
+        {
+          "name": "문다의 선봉대",
+          "text": "동료 — {T}, 당신이 조종하는 언탭된 동맹 한 개를 탭한다: 당신이 조종하는 각 생물에 +1/+1 카운터 한 개를 올려놓는다.",
+          "type": "생물 — 코르 기사 동맹",
+          "flavor": "\"지금 쓰러지면 안돼. 젠디카르가 우리, 아니 바로 당신에게 달려있어!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=408841&type=card",
+          "language": "Korean",
+          "multiverseid": 408841
+        },
+        {
+          "name": "Vanguarda de Munda",
+          "text": "Companheiro — {T}, Vire um Aliado desvirado que você controla: Coloque um marcador +1/+1 em cada criatura que você controla.",
+          "type": "Criatura — Kor Cavaleiro Aliado",
+          "flavor": "\"Não se deixem abater agora. Zendikar está dependendo de nós — de vocês!\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409027&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 409027
+        },
+        {
+          "name": "Авангард Мунды",
+          "text": "Когорта — {T}, поверните неповернутого Союзника под вашим контролем: положите один жетон +1/+1 на каждое существо под вашим контролем.",
+          "type": "Существо — Кор Рыцарь Союзник",
+          "flavor": "«Сегодня вы не должны дать себя победить. От нас... от вас зависит участь Зендикара!»",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=409213&type=card",
+          "language": "Russian",
+          "multiverseid": 409213
+        },
+        {
+          "name": "蒙达的先锋",
+          "text": "齐力～{T}，横置一个由你操控且未横置的伙伴：在每个由你操控的生物上各放置一个+1/+1指示物。",
+          "type": "生物～寇族／骑士／伙伴",
+          "flavor": "「现在还不是垂头丧气的时候。赞迪卡仰赖着我们～也仰赖着各位！」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=407725&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 407725
+        },
+        {
+          "name": "蒙達的先鋒",
+          "text": "齊力～{T}，橫置一個由你操控且未橫置的伙伴：在每個由你操控的生物上各放置一個+1/+1指示物。",
+          "type": "生物～寇族／騎士／伙伴",
+          "flavor": "「現在還不是垂頭喪氣的時候。贊迪卡仰賴著我們～也仰賴著各位！」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=407911&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 407911
+        }
+      ],
+      "printings": [
+        "OGW",
+        "POGW",
+        "PRM"
+      ],
+      "originalText": "Cohort — {T}, Tap an untapped Ally you control: Put a +1/+1 counter on each creature you control.",
+      "originalType": "Creature — Kor Knight Ally",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Penny",
+          "legality": "Legal"
+        },
+        {
+          "format": "Pioneer",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "018633d9-9c74-5943-a8b2-52f90e27b926"
+    }
+  }
