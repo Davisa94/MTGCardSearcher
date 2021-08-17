@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Home from './Home';
 
 export default class App extends Component{
     constructor(props){
@@ -7,7 +8,7 @@ export default class App extends Component{
     }
 
     render(){
-        return (<h1>Sanity Check in main.js</h1>);
+        return <Home/>;
     }
 }
 
