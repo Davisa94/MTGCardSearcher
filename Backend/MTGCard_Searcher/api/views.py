@@ -23,3 +23,12 @@ class NickNameCardView(APIView):
         if not self.request.session.exists(self.request.session.session_key):
             # create a new session
             self.request.session.create()
+        # create serializer instance
+        serializer = self.serializer_class(data=request.data)
+        # Check validity
+        if serializer.is_valid():
+            # get data out of request
+            id = serializer.data.id
+            nickname = serializer.data.nickname
+            
+
