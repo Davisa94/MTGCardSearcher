@@ -7,6 +7,12 @@ class CardSerializer(serializers.ModelSerializer):
         model = Card
         fields = ('id', 'name', 'nickname', 'multiverseid', 'imageURL')
 
+class NickNameCardSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Card
+        fields = ('id', 'nickname')
+
+
 # class CardToDeckSerializer(serializers.ModelSerializer):
 #     card_info = CardSerializer()
 #     class Meta:
