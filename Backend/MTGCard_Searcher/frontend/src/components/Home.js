@@ -11,16 +11,17 @@ export default class Home extends Component {
 
     render(){
         return 
-        (<Router>
+        (
+        <Router>
             <Switch>
-                <Route path='/'>
-                <div>
+                <Route path="/">
                     <h1>
                     Welcome Home
                     </h1>
-                </div>
                 </Route>
+                <Route path="CardSearch" component={CardSearch}/>
+                <Route path="NickNameCard" component={NickNameCard}/>
             </Switch>
-        </Router>)
+        </Router>);
     }
 }
