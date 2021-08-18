@@ -21,9 +21,9 @@ class NickNameCardView(APIView):
     valid = True
     def post(self, request, format=None):
         # Check for active session
-        if not self.request.session.exists(self.request.session.session_key):
-            # create a new session
-            self.request.session.create()
+        # if not self.request.session.exists(self.request.session.session_key):
+        #     # create a new session
+        #     self.request.session.create()
         # create serializer instance
         serializer = self.serializer_class(data=request.data)
         # Check validity

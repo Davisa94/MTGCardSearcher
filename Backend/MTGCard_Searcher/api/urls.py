@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import *
+from .views import RoomView, CreateRoomView
 
 urlpatterns = [
     path('sanitycheck/', sanity_check),
