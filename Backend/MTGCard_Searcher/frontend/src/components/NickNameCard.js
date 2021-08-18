@@ -48,6 +48,10 @@ export default class NickNameCard extends Component {
                 nickname: this.state.nickname,
             })
         }
+        // Take those parameters and fetch some response from the API
+        fetch("/api/name-card", requestParams).then((response) =>
+            response.json()
+        );
 
     }
 
