@@ -40,7 +40,7 @@ export default class NickNameCard extends Component {
             </Grid>
             <Grid item xs={12} align="center">
                 <FormControl>
-                    <TextField required={true} type="string"></TextField>
+                    <TextField required={true} type="string" onChange={this.handleMultiverseidChange}></TextField>
                 </FormControl>
                 <FormHelperText>
                     <div align="center">
@@ -50,7 +50,7 @@ export default class NickNameCard extends Component {
             </Grid>
             <Grid item xs={12} align="center">
                 <FormControl>
-                    <TextField required={true} type="string"></TextField>
+                    <TextField required={true} type="string" onChange={this.handleNicknameChange}></TextField>
                 </FormControl>
                 <FormHelperText>
                     <div align="center">
