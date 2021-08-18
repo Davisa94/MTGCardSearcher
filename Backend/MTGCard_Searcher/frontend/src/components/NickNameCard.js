@@ -46,6 +46,11 @@ export default class NickNameCard extends Component {
                     Submit a Nickname
                 </Button>
             </Grid>
+            <Grid item xs={12} align="center">
+                <Button color="Primary" variant="containted" to="/" component={Link}>
+                    Home
+                </Button>
+            </Grid>
         </Grid>)
     }
 }
