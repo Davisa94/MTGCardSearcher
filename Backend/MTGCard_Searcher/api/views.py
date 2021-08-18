@@ -19,7 +19,7 @@ class CardView(generics.CreateAPIView):
 class NickNameCardView(APIView):
     serializer_class = NickNameCardSerializer
     valid = True
-    def post(self, request, format= None):
+    def post(self, request, format=None):
         # Check for active session
         if not self.request.session.exists(self.request.session.session_key):
             # create a new session
@@ -31,6 +31,7 @@ class NickNameCardView(APIView):
             # get data out of request
             id = serializer.data.get('id')
             nickname = serializer.data.get('nickname')
+            multiverseid = serializer.data('multiverseid')
             # Check if card has a nickname already:
             queryset = Card.objects.filter(id=id, nickname="")
             if queryset.exists():
@@ -42,9 +43,7 @@ class NickNameCardView(APIView):
             else:
                 valid = False
                 # either that card doesnt exist or it has a nickname
-                card = {"data":"Invalid Card Id"}
             if valid:
-                return Response(CardSerializer(card).data, status=HTTP_200_OK)
-            else:
-                return Response(card, status=HTTP_400)
+                return Response(CardSerializer(card).data, status=status.HTTP_201_CREATED)
+        return Response({"Bad Request":"Invalid Card Id"}, status=status.HTTP_400_BAD_REQUEST)
 
