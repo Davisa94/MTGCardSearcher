@@ -39,6 +39,16 @@ export default class NickNameCard extends Component {
     handleSubmitButtonPress(){
         console.log("sanityCheck in NicknameCard component: ");
         console.log(this.state);
+        // Create request to send data to API:
+        const requestParams = {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({
+                multiverseid: this.state.multiverseid,
+                nickname: this.state.nickname,
+            })
+        }
+
     }
 
     render(){
