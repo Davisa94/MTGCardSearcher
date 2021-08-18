@@ -13,6 +13,22 @@ export default class NickNameCard extends Component {
     }
 
     render(){
-        return <Grid container spacing={2}></Grid>
+        return (<Grid container spacing={2}>
+            <Grid item xs={12} align="center">
+                <Typography component="h3" variant="h3">
+                    Pick a nickname for a Card by multiverseID
+                </Typography>
+            </Grid>
+            <Grid item xs={12} align="center">
+                <FormControl>
+                    <TextField required={true} type="string"></TextField>
+                </FormControl>
+                <FormHelperText>
+                    <div align="center">
+                        MultiverseID:
+                    </div>
+                </FormHelperText>
+            </Grid>
+        </Grid>)
     }
 }
