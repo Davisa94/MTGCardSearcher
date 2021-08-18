@@ -19,6 +19,17 @@ export default class NickNameCard extends Component {
     }
 
     // state change handlers:
+    handleMultiverseidChange(e) {
+        this.setState({
+            multiverseid: e.target.value,
+        });
+    }
+
+    handleNicknameChange(e) {
+        this.setState({
+            nickname: e.target.value,
+        });
+    }
 
     render(){
         return (<Grid container spacing={2}>
