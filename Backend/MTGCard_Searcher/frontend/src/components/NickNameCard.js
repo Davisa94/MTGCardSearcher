@@ -12,7 +12,13 @@ import { Link } from "react-router-dom";
 export default class NickNameCard extends Component {
     constructor(props){
         super(props)
+        this.state = {
+            multiverseid: '000000',
+            nickname: '',
+        };
     }
+
+    // state change handlers:
 
     render(){
         return (<Grid container spacing={2}>
