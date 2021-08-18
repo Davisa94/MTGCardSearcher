@@ -31,6 +31,16 @@ export default class NickNameCard extends Component {
                     </div>
                 </FormHelperText>
             </Grid>
+            <Grid item xs={12} align="center">
+                <FormControl>
+                    <TextField required={true} type="string"></TextField>
+                </FormControl>
+                <FormHelperText>
+                    <div align="center">
+                        NickName:
+                    </div>
+                </FormHelperText>
+            </Grid>
         </Grid>)
     }
 }
