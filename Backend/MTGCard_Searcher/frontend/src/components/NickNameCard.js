@@ -16,6 +16,8 @@ export default class NickNameCard extends Component {
             multiverseid: '000000',
             nickname: '',
         };
+        // magical binder
+        this.handleSubmitButtonPress = this.handleSubmitButtonPress.bind(this);
     }
 
     // state change handlers:
@@ -29,6 +31,12 @@ export default class NickNameCard extends Component {
         this.setState({
             nickname: e.target.value,
         });
+    }
+
+    // Button Handlers:
+    handleSubmitButtonPress(){
+        console.log("sanityCheck in NicknameCard component: ");
+        console.log(this.state);
     }
 
     render(){
@@ -58,7 +66,7 @@ export default class NickNameCard extends Component {
                     </div>
                 </FormHelperText>
             </Grid>
-            <Grid item xs={12} align="center">
+            <Grid item xs={12} align="center" onClick={this.handleSubmitButtonPress}>
                 <Button color="secondary" variant="containted">
                     Submit a Nickname
                 </Button>
