@@ -49,9 +49,25 @@ export default class NickNameCard extends Component {
             })
         }
         // Take those parameters and fetch some response from the API
-        fetch("/api/name-card", requestParams)
+        fetch("/api/name-cards/", requestParams)
         .then((response) =>response.json())
-        .then((raw_data) => console.log(raw_data));
+        .then((raw_data) => console.log(raw_data))
+        // Testing version:
+        // var responseClone; // 1
+        // fetch('https://example.com/some/path/to/json')
+        // .then(function (response) {
+        //     responseClone = response.clone(); // 2
+        //     return response.json();
+        // })
+        // .then(function (data) {
+        //     // Do something with data
+        // }, function (rejectionReason) { // 3
+        //     console.log('Error parsing JSON from response:', rejectionReason, responseClone); // 4
+        //     responseClone.text() // 5
+        //     .then(function (bodyText) {
+        //         console.log('Received the following instead of valid JSON:', bodyText); // 6
+        //     });
+        // });
 
     }
 
