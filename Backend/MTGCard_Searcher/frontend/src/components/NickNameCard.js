@@ -16,7 +16,7 @@ export default class NickNameCard extends Component {
             multiverseid: '000000',
             nickname: '',
         };
-        // magical binder
+        // magical binders
         this.handleSubmitButtonPress = this.handleSubmitButtonPress.bind(this);
     }
 
@@ -62,17 +62,17 @@ export default class NickNameCard extends Component {
                 </FormControl>
                 <FormHelperText>
                     <div align="center">
-                        NickName:
+                    NickName:
                     </div>
                 </FormHelperText>
             </Grid>
             <Grid item xs={12} align="center" onClick={this.handleSubmitButtonPress}>
-                <Button color="secondary" variant="containted">
+                <Button color="secondary" variant="contained">
                     Submit a Nickname
                 </Button>
             </Grid>
             <Grid item xs={12} align="center">
-                <Button color="Primary" variant="containted" to="/" component={Link}>
+                <Button color="primary" variant="contained" to="/" component={Link}>
                     Home
                 </Button>
             </Grid>
