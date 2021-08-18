@@ -49,9 +49,9 @@ export default class NickNameCard extends Component {
             })
         }
         // Take those parameters and fetch some response from the API
-        fetch("/api/name-card", requestParams).then((response) =>
-            response.json()
-        );
+        fetch("/api/name-card", requestParams)
+        .then((response) =>response.json())
+        .then((raw_data) => console.log(raw_data));
 
     }
 
