@@ -17,6 +17,8 @@ export default class NickNameCard extends Component {
             nickname: '',
         };
         // magical binders
+        this.handleMultiverseidChange = this.handleMultiverseidChange.bind(this);
+        this.handleNicknameChange = this.handleNicknameChange.bind(this);
         this.handleSubmitButtonPress = this.handleSubmitButtonPress.bind(this);
     }
 
