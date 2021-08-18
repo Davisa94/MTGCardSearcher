@@ -29,21 +29,23 @@ class NickNameCardView(APIView):
         # Check validity
         if serializer.is_valid():
             # get data out of request
-            id = serializer.data.get('id')
             nickname = serializer.data.get('nickname')
             multiverseid = serializer.data('multiverseid')
+            print("Invalid multiverseid: ",multiverseid )
             # Check if card has a nickname already:
-            queryset = Card.objects.filter(id=id, nickname="")
+            queryset = Card.objects.filter(multiverseid=multiverseid)
             if queryset.exists():
                 # if the card with that ID also has no nickname then proceed:
                 card = queryset[0]
-                card.id = id
                 card.nickname = nickname
                 card.save(update_fields=['nickname'])
             else:
                 valid = False
+                print("Invalid Card ID")
                 # either that card doesnt exist or it has a nickname
             if valid:
+                print("Valid card, Nicknaming now")
                 return Response(CardSerializer(card).data, status=status.HTTP_201_CREATED)
+
         return Response({"Bad Request":"Invalid Card Id"}, status=status.HTTP_400_BAD_REQUEST)
 
